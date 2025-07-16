@@ -1,8 +1,8 @@
 /*
 =============================================================
-Fichier     : 1WIRE_WEB_TEMPERATURE | wifi.h
+Fichier     : wifi.h
 Auteur      : 3x0c3t
-Version     : 1.1
+Version     : 1.2
 Date        : 20250715-23:45
 Description : Thermomètre 1WIRE + WebServer + WebPage
 =============================================================
@@ -17,7 +17,6 @@ const char* ssid = "N0wifiHere";
 const char* password = "@PassWeurd";
 
 const char* ap_name = "3x0c3t-TEMPERATURE";
-
 
 void connectToWiFi() {
   WiFi.begin(ssid, password);

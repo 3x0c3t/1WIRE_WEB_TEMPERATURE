@@ -1,10 +1,10 @@
 /*
 =============================================================
-Fichier     : 1WIRE_WEB_TEMPERATURE | css.h
+Fichier     : css.h
 Auteur      : 3x0c3t
-Version     : 1.1
-Date        : 20250715-23:45
-Description : Thermomètre 1WIRE + WebServer + WebPage
+Version     : 1.3
+Date        : 20250716-14:00
+Description : Thermomètre 1WIRE + WebServer + WebPage - Dark Mode CSS
 =============================================================
 */
 
@@ -14,14 +14,14 @@ Description : Thermomètre 1WIRE + WebServer + WebPage
 const char* pageCSS = R"rawliteral(
   body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
     margin: 20px;
     padding: 0;
   }
 
   h1 {
-    color: #0066cc;
+    color: #64b5f6;
   }
 
   p {
@@ -30,7 +30,11 @@ const char* pageCSS = R"rawliteral(
   }
 
   .error {
-    color: red;
+    color: #ff5252;
+  }
+
+  strong {
+    color: #90caf9;
   }
 )rawliteral";
 
